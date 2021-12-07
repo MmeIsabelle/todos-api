@@ -13,9 +13,6 @@
 # it.
 #
 
-config.include(Shoulda::Matchers::ActiveModel, type: :model)
-config.include(Shoulda::Matchers::ActiveRecord, type: :model)
-
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
